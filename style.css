@@ -1,0 +1,101 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* fonts */
+h1 {
+  font-size: 35px;
+  }
+  
+h3 {
+  font-size: 15px;
+}
+
+h2 {
+  color: #197e86;
+  font-family: "Times New Roman";
+  font-size: 25px;
+  text-align: center;
+}
+  
+p {
+  color: #101051;
+  font-size: 14px;
+}
+  
+li {
+    color: #101051;
+  font-size: 14px;
+}
+  
+
+/* header styles */
+header{
+height: 110px;
+background-color: #bbe8bb;
+font-family: "arial", Times, serif;
+color: #197e86;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+
+/*main styles*/
+main {
+background-color: #e9eff7;
+padding-top: 15px;
+padding-bottom: 15px;
+font-family: "arial", Times, serif;
+}
+
+/* blocks as a whole */
+main >.containers {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px
+}
+
+/* profile picture */
+img {
+max-width: 500px;
+}
+
+.image-frame {
+border-radius: 50%;
+}
+
+/* Blocks 1,2,3 */
+.container1 {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+a:link {
+color: #197e86;
+}
+
+/* google maps */
+main iframe {
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+}
+
+hr {
+height: 3px;
+width: 420px;
+background-color:#3eb65c 
+}
+
+
+/*footer styles*/
+footer {
+height: 70px;
+background-color: #bbe8bb;
+color: #197e86;
+padding-top: 15px;
+text-align: center;
+}
